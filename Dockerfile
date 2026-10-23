@@ -7,7 +7,7 @@ WORKDIR /app
 
 COPY --chown=appuser:appuser . .
 
-RUN pip install --no-cache-dir grpcio
+RUN pip install --no-cache-dir grpcio protobuf
 
 USER appuser
 
