@@ -71,4 +71,3 @@ jobs:
             cat response.txt
             exit 1
           fi
-          
